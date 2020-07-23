@@ -112,7 +112,7 @@ function createBucketProps(bucketName: ROS_BUCKETNAME): RoSBucketProps {
     }
 
 }
-
+console.log(createBucketProps("ros-type1-dev"));
 function isRosType1BucketName(bucketName: ROS_BUCKETNAME): bucketName is ROS_TYPE1_BUCKETNAME {
     return ROS_TYPE1_BUCKETNAME.indexOf(bucketName as ROS_TYPE1_BUCKETNAME) > -1;
 }
