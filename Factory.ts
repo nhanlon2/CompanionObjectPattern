@@ -1,5 +1,5 @@
 
-export declare enum BucketEncryption {
+enum BucketEncryption {
     UNENCRYPTED = "NONE",
     KMS_MANAGED = "MANAGED",
     S3_MANAGED = "S3MANAGED",
