@@ -20,7 +20,7 @@ export interface RoSBucketProps {
 const ROS_TYPE1_BUCKETNAME = ['ros-type1-dev', 'ros-type1-test', 'ros-type1-prod'] as const;
 type ROS_TYPE1_BUCKETNAME = typeof ROS_TYPE1_BUCKETNAME[number];
 
-const ROS_TYPE2_BUCKETNAME = ['ros-type2-dev', 'ros-type2-test', 'ros-tyep2-prod'] as const;
+const ROS_TYPE2_BUCKETNAME = ['ros-type2-dev', 'ros-type2-test', 'ros-type2-prod'] as const;
 type ROS_TYPE2_BUCKETNAME = typeof ROS_TYPE2_BUCKETNAME[number];
 
 const ROS_TYPE3_BUCKETNAME = ['ros-type3'] as const;
